@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/snackbar_deleteView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/snackbar_select"
+        android:fontFamily="@font/nanumbarunpenb"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="이 일정을 삭제하시겠습니까?"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/snackbar_ReallyDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/snackbar_select"
+        android:fontFamily="@font/nanumbarunpenb"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="삭제"
+        android:textColor="@color/red"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/snackbar_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/snackbar_select"
+        android:fontFamily="@font/nanumbarunpenb"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="취소"
+        android:textColor="@color/skyblue"
+        android:textSize="25dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_time_view"
+    android:layout_width="250dp"
+    android:layout_height="280dp"
+    android:background="#00ffffff"
+    android:orientation="vertical">
+
+
+    <TimePicker
+        android:id="@+id/select_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner" />
+
+    <Button
+        android:id="@+id/select_timeButton"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_layout"
+        android:fontFamily="@font/nanumbarunpenb"
+        android:text="설정"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

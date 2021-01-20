@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/select_color_skyblue"
+    tools:context=".TodoriActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/todoriView_change"
+        android:layout_width="100dp"
+        android:text="변경"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:fontFamily="@font/nanumbarunpenb"
+        android:background="@drawable/select_color_green"
+        android:layout_height="100dp"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/todoriView_sampleAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_fileName="sampleAnimation.json"/>
+
+</LinearLayout>

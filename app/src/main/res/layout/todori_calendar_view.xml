@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calendar_main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Calendar_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="캘린더"
+            android:fontFamily="@font/nanumbarunpenb"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/calendar_add"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/topbar_add"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="20dp"/>
+
+    </LinearLayout>
+
+    <CalendarView
+        android:id="@+id/Calendar_View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minDate="01/01/2010">
+
+
+    </CalendarView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Calendar_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>
